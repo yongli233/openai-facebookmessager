@@ -35,6 +35,13 @@ PAGE_ACCESS_TOKEN = "YOUR_PAGE_ACCESS_TOKEN"
 ```
 pip install -r requirements.txt
 ```
+6. Run `flask run` to start the Flask server locally
+```
+flask run
+```
+7. Set up a webhook for your Facebook page pointing to {your_server}/webhook [Guide](https://developers.facebook.com/docs/pages/webhooks/)
+
+Your chatbot will now respond to user messages on Messenger!
 
 ## Customizing Responses
 
