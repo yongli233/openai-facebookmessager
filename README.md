@@ -1,12 +1,11 @@
 ## ****Facebook Messenger Chatbot with OpenAI as backend****
 
-This code implements a Facebook Messenger chatbot that uses OpenAI's API to generate responses. It includes the following features:
+This repo implements a Facebook Messenger chatbot that uses OpenAI's API to generate responses. It includes the following features:
 
 Language detection using SpaCy
 Intent detection and entity extraction using SpaCy
 Querying OpenAI for responses based on the detected intent (inform, question, unknown)
 Random entity selection for questions
-Error handling
 Support for multiple languages (English, Spanish, French, German, Italian, Dutch)
 
 ## Setup
